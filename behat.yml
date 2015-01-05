@@ -1,0 +1,7 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: https://ru.wikipedia.org
+            browser_name: 'chrome'
+            goutte: ~
+            selenium2: ~
